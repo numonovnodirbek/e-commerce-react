@@ -71,14 +71,14 @@ export default function Cart() {
       <div className="right_product_details">
         <div className="title">{getProduct?.title}:</div>
         <div className="price">
-          <span className="rupee">₹</span>
+          <span className="rupee">$</span>
           {getProduct?.price}
         </div>
         <div className="rating">
           {getProduct?.rating?.rate} <span className="start_icon">★</span>
         </div>
         <div className="description">
-          <h4>Product Details:</h4>
+          <h4>Descriptions:</h4>
           <div className="product__description"> {getProduct?.description}</div>
         </div>
       </div>

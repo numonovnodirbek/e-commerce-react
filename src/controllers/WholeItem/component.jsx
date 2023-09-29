@@ -41,15 +41,15 @@ function TotalProducts() {
       </div>
       <div className="right__Cart">
         <div>
-          <div>Total </div> <div className="cart__price"> ₹ {totalAmount} </div>
+          <div>Total </div> <div className="cart__price"> $ {totalAmount} </div>
         </div>
         <div>
           <div>Discount </div> <div> {0} </div>
         </div>
         <div>
-          <div>Total </div> <div className="cart__price"> ₹ {totalAmount} </div>
+          <div>Total </div> <div className="cart__price"> $ {totalAmount} </div>
         </div>
-        <button onClick={() => dispatch(checkout())}>checkout Product</button>
+        <button onClick={() => dispatch(checkout())}>Checkout Product</button>
       </div>
     </div>
   );

@@ -11,6 +11,8 @@ export function updateProductWithItsCount(products, cart) {
       image: item.image,
       count: findCound(item, cart),
       title: item.title,
+      price: item.price,
+      category: item.category,
     };
   });
   return newArr;
